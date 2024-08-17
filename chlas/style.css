@@ -1,0 +1,408 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body{
+width: 100%;
+background-color: #d3d3d3;
+    
+    
+}
+ .icon-car:hover{
+   
+    translate: 110px  ;
+    transition: 0.5s;
+
+ }   
+
+.form{
+    background-color: rgb(212, 195, 195);
+
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.form-01{
+    width: 100px ;
+    height: 100px;
+    border-image-width: 1px ;
+}
+#h1-01{
+    
+    border: 1px solid green;
+    color:green;
+    border-radius: 18px;
+    height: 50px;
+    margin-left: 100px;
+    width: 200px;
+    text-align:center ;
+    background-color:#00bfff;
+}
+.website-1:hover{
+    width: 80px;
+    transform: rotate(360deg) ;
+    transition-duration: 0.100s; 
+    
+
+}
+.img-1{
+
+    display: block;
+    width: 150px;
+    height: 100px;
+
+margin-left: 100px;
+border-radius:5px;
+}
+#img-1{
+    color: crimson;
+  
+    margin-left: -130px;
+    margin-top: 70px;
+}
+.box{
+    
+    gap: 20px;
+    display: flex;
+    margin-left:20px;
+    margin-top: 20px;
+    
+}
+.icon-1{
+    margin-top: 10px;
+}
+.h-1{
+ color: blue;
+ font-size: 30px;
+ gap: 10px ;
+text-decoration: none;
+margin-top: 20px;
+}
+.h-2{
+color: chocolate;
+
+}
+.h-3{
+color: crimson;
+
+}
+.h-4{
+color: darkorange;
+
+}
+
+.input-form{
+  background-color: rgb(63, 60, 60);
+    color: aliceblue; 
+margin-left: 500px;
+gap: 10px;
+width: 30%;
+height: 400px;
+text-align: center;
+}
+#cantry{
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:burlywood;
+}
+#cty{
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: burlywood;
+} 
+#Email{
+    text-align: center;
+    width: 280px;
+    border-radius: 10px ;
+}
+#password{
+    text-align: center;
+    width:280px ;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+#Gandar{
+    text-align: center;
+    width:100px ;
+    border-radius: 10px;
+    margin-top: 10px; 
+    background-color: burlywood;
+}
+
+.buten{
+    background-color: tomato;
+    width: 100px ;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+    font-size: 12px;
+
+
+}
+#button-1{
+    margin-left: 10px;
+     padding-top: -100px;
+     text-decoration: none;
+    
+}
+.png-img{
+    width: 60%;
+    height: 10%;
+
+
+}
+.div-png{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    
+    gap: 50px;
+   
+    margin-top: 100px;
+margin-left: 100px;
+text-align: center;
+background-color: #d3d3d3;
+
+}
+.car-style{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.h1-pat{
+    font-size: 50px;
+    color: #333333;
+
+}
+.p{
+    font-size: small;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      color: #333333;
+
+}
+.div-png img {
+
+    height: 200px;
+    width: 250px;
+    border-radius:30px;
+    
+}
+.div-png img:hover{
+    border: 2px solid pink;  
+ translate: 50px ;
+ transform: rotate(360deg) ;
+    transition: 0.5s;
+    
+
+} 
+
+.div-png h2 {
+    color:darkslategrey;
+}
+.div-png button{
+    background-color:#6666;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.div-png button:hover{
+    color: aqua;
+    transform: scale(1.1);
+    
+    transition-duration: 0.50s;
+
+    
+}
+.car-ditel{
+    
+    display: flex;
+    margin-top: 100px;
+   
+}
+.ditel-div{
+    
+    translate: 100px 1px;
+    transition: 0.51s;
+}
+.tablec{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(.2,5,3,0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+table{
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+thead{
+    background-color: #9aaaac;
+    color: #0f0d0d;
+}
+td,th{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(37, 37, 43);
+}
+th:hover,td:hover{
+    background-color: #d8cfcf66;
+    cursor: pointer;
+}
+.map-div{
+
+    width: 100%;
+ 
+}
+.cantry-name{
+    text-align: center;
+    margin-top: -420px
+}
+.h2-name{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.h1-name{
+    margin-left: -600px;
+    margin-top: -100px;
+}
+.footer-cat{
+width: 100%;
+margin-top: 400px;
+background-color: #968888;
+display: flex;
+gap: 200px;
+height: 500px;
+padding-top: 20px;
+
+
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.ul-li h2{
+color:#8b0000;
+
+}
+.footer-li h2{
+    color: #8b0000;
+
+}
+.Den{
+    margin-top: 300px;
+}
+.email{
+    margin-left: -1000px;
+    border: 2px solid green;
+width: 700px;
+    height: 1px;
+    margin-top: 450px;
+}
+@media screen and (max-width: 567px) {
+    .form {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .form-01 {
+        width: 100%;
+        height: auto;
+    }
+
+    #h1-01 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .img-1 {
+        width: 100px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .input-form {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div-png {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    .car-style {
+        margin-top: 20px;
+    }
+
+    .h1-name,
+    .h2-name {
+        margin: 0;
+        text-align: center;
+    }
+
+    .cantry-name {
+        margin-top: 0;
+    }
+
+    .tablec {
+        width: 90%;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    .icon-car:hover {
+        transform: translate(20px, 0); /* Adjust for smaller screens */
+    }
+
+    .website-1:hover {
+        width: 60px;
+        transform: rotate(360deg);
+        transition-duration: 0.1s;
+    }
+
+    .div-png img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .div-png img:hover {
+        transform: translateX(10px) rotate(360deg);
+    }
+
+    .p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .h-1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}

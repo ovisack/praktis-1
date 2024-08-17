@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Sevillana&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="form">
+    <div class="form-01">
+      <a href="https://  www.google.com/search?q=chatgpt&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgwIARAjGCcY6gIYiwMyDAgCECMYJxjqAhiLAzIMCAMQIxgnGOoCGIsDMgwIBBAjGCcY6gIYiwMyDAgFECMYJxjqAhiLAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQozOTU2NmoxajE1qAIIsAIB&sourceid=chrome&ie=UTF-8"></a> 
+    <a href="https://www.bing.com/search?q=microsoft+&qs=ds&form=QBRE">  
+          <img class="website-1" src="./Website.png" alt=""> </a>
+    </div>
+     <img class="icon-car" src="data:image/png;base64,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">
+    <h1 id="h1-01">Hello </h1>
+    <div class="img-1">
+    
+    <!-- <img src="./pexels-couleur-2317904.jpg" alt=""> -->
+
+    </div>
+    <img class="icon-1" width="64" height="64" src="https://img.icons8.com/external-bearicons-blue-bearicons/64/external-Happy-customer-review-bearicons-blue-bearicons.png" alt="external-Happy-customer-review-bearicons-blue-bearicons"/>
+<div class="box">
+    
+<a class="h-1" href="https://www.facebook.com/reel/2607823382722604"> Video</a>
+ <h1 class="h-2">Form</h1>
+ <h1 class="h-3">Login</h1>
+ <h1 class="h-4" >signup</h1>
+   </div>
+  </header>  
+   
+  <div class="input-form">
+    <h2> login</h2>
+    <form action="#">
+        <div class="input-box">
+            <span class="icon"></span>
+            <input type="Email" name="Email" placeholder="Email" id="Email">
+            <table >Email</table> 
+        </div>
+        <div class="input-box">
+            <span class="icon"></span>
+            <input type="password" name="password" placeholder="password" id="password">
+            <table >Password</table> 
+        </div>
+        <div class="input-box"> 
+            <span class="icon"></span>
+            <select id="cantry">
+                <option value="cty" > </option>
+        <option value="country" > Bngladesh</option>
+          <option value="country" > China</option>
+          <option value="country" > India</option>
+          <option value="country" > Vutan</option>
+          <option value="country" > Japan</option>
+          <option value="country" > America</option>
+            </select>
+            <table > select your country</table> 
+        </div>
+        <div class="input-box"> 
+            <span class="icon"></span>
+            <select id="cty">
+                <option value="cty" > </option>
+          <option value="cty" > Dhaka</option>
+          <option value="cty" > Dinajpur</option>
+          <option value="cty" > Rasahi</option>
+          <option value="cty" > Gazipur</option>
+          <option value="cty" > Bogura</option>
+          <option value="cty"> Silet</option>
+            </select>
+            <table> select your cty</table> 
+        </div>
+        <div class="input-box"> 
+           
+            <option value="cty" > </option>
+            <select id="Gandar">
+                <option value="cty" > </option>
+          <option value="Gandar" > Female </option>
+          <option value="Gandar" > mail</option>
+       
+            </select>
+            <table style="margin-left:100px;"> Gender</table> 
+        </div>
+    <button class="buten">  <a id="button-1" href="https://www.facebook.com/ovishekh.royovishekh">   login</a></button> 
+</form>
+  </div>
+  <!-- png style -->
+   <div class="car-style">
+   <h1 class="h1-pat">by car shelat 
+    naw car
+   </h1>
+   <p class="p">WEBCarDekho.com.bd is the leading car based website in Bangladesh,<br> providing users with comprehensive information on new, <br>reconditioned, and private cars. Find the best car …</p>
+   </div>
+   <main>
+    <div class="png-img" >
+        <div class="div-png">
+        
+        <div>
+        <img  src="./car1png.jpg" alt="">
+        <h2>Based on Price of $85,817</h2>
+        <button> Payment </button>
+        </div>
+        <div>
+        <img src="./car2png.jpg" alt="">
+        <h2>Based on Price of $55,817</h2>
+        <button> Payment </button>
+        </div>
+        <div>
+        <img src="./car3png.jpg" alt="" sizes="" srcset="">
+        <h2>Based on Price of $85,817</h2>
+        <button> Payment </button>
+        </div>
+        <div>
+        <img src="./car4png.jpg" alt="">
+        <h2>Based on Price of $325,817</h2>
+        <button> Payment </button>
+        </div>
+        <div>
+     <img src="./car3png.jpg" alt="" >
+     <h2>Based on Price of $25,8170</h2>
+     <button> Payment </button>
+     </div>
+     <div>
+    
+        <img class="img1" src="./car1png.jpg" alt="">
+        <h2>Based on Price of $25,8017</h2>
+        <button> Payment </button>
+        </div>
+        <div>
+        <img src="./car2png.jpg" alt="">
+        <h2>Based on Price of $250,817</h2>
+        <button> Payment </button>
+        </div>
+        <div>
+        <img src="./car3png.jpg" alt="" sizes="" srcset="">
+        <h2>Based on Price of $15,1447</h2>
+        <button> Payment </button>
+        </div>
+        <div>
+        <img src="./car4png.jpg" alt="">
+        <h2>Based on Price of $205,817</h2>
+        <button> Payment </button>
+        </div>
+    
+        <div>
+     <img src="./car3png.jpg" alt="" >
+     <h2>Based on Price of $25,017</h2>
+     <button> Payment </button>
+        </div>
+        <div>
+     <img src="./car2png.jpg" alt="">
+     <h2>Based on Price of $25,817</h2>
+     <button> Payment </button>
+     </div>
+     <div>
+     <img class="img1" src="./car1png.jpg" alt="">
+     <h2>Based on Price of $25,800</h2>
+     <button> Payment </button>
+
+        </div>  
+        </div> 
+</div>
+   </main>
+   <!-- mani  section -->
+    <div style="border: 1px solid  #3333; margin-top: 50px;"></div>
+   <section>
+    <div class="car-ditel">
+      <div class="ditel-div">
+      <img src="./mobailpng.png" alt="">
+      </div>
+      <div  class="tablec">
+        <table>
+<thead>
+  <tr>
+    <th>Car Model</th>
+    <th>Price</th>
+    <th>Discount</th>
+    <th>Discounted price</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Tata Nano-500</td>
+    <td>5000$</td>
+    <td>500$</td>
+    <td>4500$</td>
+  </tr>
+  <tr>
+    <td>Tata Nano-500</td>
+    <td>5000$</td>
+    <td>500$</td>
+    <td>4500$</td>
+  </tr>
+  <tr>
+    <td>Tata Nano-500</td>
+    <td>5000$</td>
+    <td>500$</td>
+    <td>4500$</td>
+  </tr>
+  <tr>
+    <td>Tata Nano-500</td>
+    <td>5000$</td>
+    <td>500$</td>
+    <td>4500$</td>
+  </tr>
+</tbody>
+
+          
+        </table>
+      </div>
+    </div>
+   </section>
+   <div class="mep-div">
+   <div>
+  <img src="./meppng.png" alt="">
+   </div>
+   <div class="cantry-name">
+  
+  <h2>Bangladesh</h2>
+  <h2 class="h2-name">Indiya</h2>
+  <h2 class="h1-name">Vutan</h2>
+  <h2>Argentina</h2>
+</div>
+   </div>
+   <footer>
+    <div class="footer-cat">
+      <div class="ul-li">
+<ul>
+  <h2>Buying & Selling</h2>
+  <li>Financing</li>
+  <li>Find a Car</li>
+  <li>Find a Dealer</li>
+  <li>Listings by City</li>
+  <li>Certified Pre-Owned</li>
+  <li>Car Payment Calculators</li>
+  <li>Sell Your Car</li>
+
+</ul>
+      </div>
+      <div class="footer-li">
+<ul>
+  <h2>Explore Our Brand</h2>
+  <li>NewCars.com</li>
+  <li>DealerRater</li>
+  <li>For Dealer Partners</li>
+  <li>Platform Log-In</li>
+  <li>Cars Commerce Overview</li>
+  <li>Cars.com</li>
+  <li>Cars Commerce Media Network</li>
+
+</ul>
+      </div>
+      <div class="Den">
+        <img src="data:image/png;base64,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">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAABgklEQVR4nO2ZsUrDUBSGr1R8DCchi4oIJaI4ioO6VAc72cHB4gOIW0GxIi5SBQcFhai7jj6Dgg6Ci4UMgg61FawGi79klFwlTQL23Pwf/Fu48OWcm3suUYoQQgghpKOwARGhcFT+u3KsMMxo6e4xoH/xExMlDzMbH4EYs4czo8B02cP+3Ssct/FrjBDuGQdWLt7+FDVKuHjSDCVrhLBVaIWWNUK46DTTJbxzFZQ6uK9hMH+JjHUG1Xf6M9KFj6v1gHBh9zYoaoqwo2nb2fVrqOFHKPur/TVFCm8+RF9TprBLYSWtwtZCSzsb6yq8ev6kfXay5MkRzm3r5dqJP37KEd6qxRaeWqsLEi67sYV7517SI7x384yuEaRHeOko5FHVKcJqQD8uLlcOA8nOV4LPDlVTJpx9FyZs66NrX7/9I69J4aiwwmBLK+5h8KOl+JVu8FjK8RwGBw/FSQscLeNh8/KARF6C7neKf5U09bakUidsJxwKRycvJImRFxJCCCFECeIb6iuIM63MTA0AAAAASUVORK5CYII=">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEkUlEQVR4nO2Zb0wbZRzHn3taesUtRpOJYbo/DoQM5c/GMgryzxkYxbGBiQsbNBCEFGaIY8zCCuaUMSiQAQMGQWAgcSY2GeuNuzpc8NqNvRoCItE3841Dthj3ToNzbX+mVRBI197Zo2VJv8n3XZ+nn89dn6dPrwj5448/HgcoJIWqgGIoxywU4HuQTfwJSsIKBxBAKgJIQzbIJhZBhX+BE/g6VAUU2ccgXwc0UgWU4tvwNmGBJASCqiQsoMa3QRsQ433wOlk4qPEsvCkQ2llTEUAxnoEaFOIdeA3RCumEzWPwtT2IrHCK0K0f+HkUCMX4B9HBk9b0PTwNFJKJC9+NngcVfrDu8En/toJoFw9+EMnhOPGr1+DLCE40eIeAGn/vPXgsMvyHRIfgrbEMT0IlroUmaQpQaAtQKAjOSN6C05hy7Db21zgbW4pN4sI3kyGQQVh5g5+W9PJZfEChZ+ADydAqkVKR4R1vVIHv8IIvwPNwDr0oeP4aFAJ5+P76wJvl22CcfAQaCUCyC/gSPAV6JEEbLWAmdWAmwdHeAIB0wvmV35DweiQBs2x+WcDeURmACv8Hn0lYoAK9hDZiwCSPXwW/VI4E0En/ObuclPSjjRowybROBZY6FPAAyhGJNmrATF5xKWCSdQiZL1gzC2I0XDthO9rUd9e9gImccynAkRm+EAjWzMIbddcW+Qg8dCMQ6iuB3TW3rHwEHrkWQJt9JbCjehKeaoHtVd+C5x+hm7IwXwns1t60Pd2L+JNRHovYTI642UY7fSVwRDc8z0NAduZJ8A+5Z6Geif/jvF4RiEROy3D+puiPvrG4Eii/0DjqXoALVDiDnx0PBhWthENXs6HDGHtJbIGTnfX97u6Arq/iuHsBQBjMsntL4DYzCfRYOGQbDjvg7c2jlZaL11/bJhZ8W496Z2SNyeoK/vVas4XiKH5P88BENtrhfzdthrNMwjL4ylaPJi9wXIrHjwcpjpIeafxswd3VL2lrm+A9KXCBL98df+GvEjrdKfxSP2YTZjyRoDhKmt/SM+d2/6+egsbuylhBkzcwihlX8CvvRP/X4VuFwvfeiNhe1lX3E5/d51hz75zQ+RE9FvZKPq208pHIp5WWzq/2DlCDKXJ38w6PRW1qZ/b15RmU1pyRHDja2uH2FEp9ekrQl+dyutmY1iweAitFGljFdJdxL6VnIw5cGdsVdJkL2zJgjEq8aNxTV8ckTNpfs3JM1kgOFPZQsLXqO6cC77c3dSNPomPjpvkKeNKiwXLYWX1nFfy7TQM/Ik+j10fINHTqfW9IFH5RCJG1Jgd8ev2Xv53o6hJ0cHxiOG7HczVM4oI3JI7pc0HVemGeGq4MEgV+hYT8LBM/K2RN/J+eYxXTRmPo+v3m7jNGNecaMq2iX3lDprWXjWlG3sgwvSe0gY2beseQ5TF4ztXDjqt++caru5C3MzQWGdvM7L9VZDj4WCh4AZ3xuJGJm/icifb+n3xrowck6WeiC1uN+0a1TOLPajptUWVQWu13yH4IzDVk2tSGtMWqa8nzLex+ts8YU2Afg/zxxx/kaf4GzSVnCicBYF0AAAAASUVORK5CYII=">
+        <img src="data:image/png;base64,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">
+      </div>
+      <div class=" email">
+        <h5 id="">royavishek306@gmail.com</h5>
+      </div>
+     
+    </div>
+   </footer>
+</body>
+</html>
